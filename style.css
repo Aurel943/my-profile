@@ -1,0 +1,107 @@
+body {
+    background-color: #F6F9FC
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Roboto;
+}
+
+img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#profile-title {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h3 {
+    color: #005a46;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+p {
+    font-family: Lora;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+}
+
+@media (max-width:320px) {
+    .container {
+        width: 300px;
+    }
+
+    #profile-title {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:961px) {
+    .container {
+        width: 500px;
+    }
+}
+
+
+.card-white {
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px;
+    margin: 20px 0px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+#button-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+#call-to-action {
+    width: fit-content;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #6B72E1;
+    color: white;
+    border-radius: 4px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+a {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: deeppink;
+    font-family: Lora;
+}
+
+a:hover {
+    color: grey;
+    font-size: 15px;
+    transition: 1s;
+}
